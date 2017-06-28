@@ -58,7 +58,7 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <div className="small-12 columns">
-              <span className="search-history">Você pesquisou por: <strong>{ this.state.term }</strong></span>
+              <span className="search-history">Você pesquisou por: <strong>{ this.state.term } !</strong></span>
               <ul className="small-block-grid-1 medium-block-grid-3 large-block-grid-4">
 
                 {this.state.books.items.map((book, i) => {
